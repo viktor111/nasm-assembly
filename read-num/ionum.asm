@@ -1,9 +1,9 @@
-section.data
+section .data
 	userMsg db "Input your num:"
 	lenUserMsg equ $-userMsg
 	dispMsg db "You have entered: "
 
-section.bss
+section .bss
 	num resb 5
 
 section .text
