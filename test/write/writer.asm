@@ -5,7 +5,7 @@ STDOUT equ 1
 STDIN equ 0
 
 section .data
-	msg1 db "What is your name?", 0xa, 0xb
+	msg1 db "What is your name?", 0xa
 	lenOfMsg1 equ $ - msg1
 
 	msg2 db "Hello "
