@@ -17,7 +17,6 @@ section .data
 section .bss 
 	num1 resb 2
 	num2 resb 2
-	
 	res resb 1
 
 section .text
